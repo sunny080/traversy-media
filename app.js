@@ -1,3 +1,5 @@
+// session 1 //////////////////////////////
+
 // test1
 // const reversing = (string) => string.split("").reverse().join("");
 // console.log(reversing('sunny'));
@@ -54,3 +56,34 @@
 //   }
 // };
 // console.log(fizzbuzz());
+
+// session 2 //////////////////////////////
+
+// test 1
+// const chuncked = (arr , len) => {
+//     const arr1 = []
+//     for(let i = 0; i < arr.length; i+=len ){
+//         arr1.push(arr.slice(i , i + len));
+//     }
+//     return arr1
+// }
+// console.log(chuncked([1,2,3,4,5,6,7],2));
+
+// test 2
+// const chuncked = (arr) => {
+//   return arr.reduce((a, b) => {
+//     return a.concat(b);
+//   });
+// 2nd step
+//   return arr.flat();
+// };
+// console.log(chuncked([[1, 2, 3, 4, 5, 6, 7]]));
+
+// test3
+// function isAngram(str1, str2) {
+//   return newfuc(str1) === newfuc(str2);
+// };
+// function newfuc (str)  {
+//   return str.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
+// }
+// console.log(isAngram( "Dormitory", "dirty room###!!!$$$"));
