@@ -26,3 +26,20 @@
 //     return arr2
 // }
 // console.log(firstupper( 'i have now lOndon'))
+
+
+// test5
+
+const maxCharc = (str) => {
+    const data = {}
+    str.split("").filter((word) => {
+        if(data[word] ){
+            data[word]++;
+
+        }else{
+            data[word] = 1;
+        }
+    })
+    return data
+}
+console.log(maxCharc("javascript"))
