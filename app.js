@@ -1,5 +1,14 @@
+// test1
+// const reversing = (string) => string.split("").reverse().join("");
+// console.log(reversing('sunny'));
 
-const reversing = (string) => string.split("").reverse().join("");
 
 
-console.log(reversing('sunny'));
+
+// test2
+// const reversing = (string) => {
+//   const plandrom = string.split("").reverse().join("");
+//   const data = plandrom === string;
+//   return data
+// };
+// console.log(reversing("madam"));
