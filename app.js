@@ -14,8 +14,6 @@
 // const numrev = (num) => (num = Number(String(num).split("").reverse().join("")));
 // console.log(numrev(654321));
 
-
-
 // test4
 // const firstupper = (str) => {
 //    const arr = str.toLowerCase().split(" ")
@@ -27,19 +25,32 @@
 // }
 // console.log(firstupper( 'i have now lOndon'))
 
-
 // test5
+// const maxCharc = (str) => {
+//     const data = {}
+//     str.split("").filter((word) => {
+//         if(data[word] ){
+//             data[word]++;
+//         }else{
+//             data[word] = 1;
+//         }
+//     })
+//     return data
+// }
+// console.log(maxCharc("javascript"))
 
-const maxCharc = (str) => {
-    const data = {}
-    str.split("").filter((word) => {
-        if(data[word] ){
-            data[word]++;
-
-        }else{
-            data[word] = 1;
-        }
-    })
-    return data
-}
-console.log(maxCharc("javascript"))
+// // test 6
+// function fizzbuzz  ()  {
+//   for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("buzz");
+//     } else if (i % 5 === 0) {
+//       console.log("fizz");
+//     }else{
+//         console.log(i)
+//     }
+//   }
+// };
+// console.log(fizzbuzz());
